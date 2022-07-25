@@ -49,6 +49,26 @@ li a:hover {
     text-decoration: underline;
 }
 
+.active {
+    text-decoration: underline;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/pexels-elina-fairytale-3822622.jpg') no-repeat;
+    background-size: cover;
+    background-position: center right
+}
+
 /* sections */
 h3 {
     
