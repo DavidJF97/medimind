@@ -81,11 +81,29 @@ li a:hover {
     font-size: 200%;
     line-height: 50px;
     text-align: center;
-
-    /* background-color: blue; */
 }
 
-/* sections */
-h3 {
+/* yoga, mediation and mindfulness sections */
+
+#sections {
+    text-align: center;
+    width: 100%;
+}
+
+#sections div {
+    display: inline-block;
+    height: 300px;
+    width: 30%;
+}
     
+.yoga-div {
+    background-color: blue;
+}
+
+.med-div {
+    background-color: blueviolet;
+} 
+
+.mind-div {
+    background-color: brown;
 }
