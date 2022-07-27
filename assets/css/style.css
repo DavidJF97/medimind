@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans&family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Cormorant+SC&family=Open+Sans&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -8,17 +8,21 @@
 
 body {
     color: black;
-    font-family: 'Open Sans', Roboto, sans-serif ;
+    font-family: Roboto, sans-serif ;
 }
 
 /* headings and logo */
 
 h1{
-    font-family: 'Calligraffitti', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Calligraffitti', sans-serif;
+}
+
+h3 {
+    font-family: 'Cormorant SC', sans-serif;
 }
 
 #logo {
@@ -85,6 +89,10 @@ li a:hover {
 
 /* yoga, mediation and mindfulness sections */
 
+#sections-heading {
+    font-size: 170%;
+}
+
 #sections {
     text-align: center;
     width: 100%;
@@ -93,17 +101,29 @@ li a:hover {
 #sections div {
     display: inline-block;
     height: 300px;
-    width: 30%;
+    width: 33%;
 }
-    
+   
+h2 > i {
+    font-size: 300%;
+    padding-top: 2%;
+}
+
+#sections div > h3 {
+    font-size: 200%;
+    text-decoration: underline;
+
+}
+
+
 .yoga-div {
-    background-color: blue;
+    background-color: #c0a37e;
 }
 
 .med-div {
-    background-color: blueviolet;
+    background-color: #C09E72;
 } 
 
 .mind-div {
-    background-color: brown;
+    background-color: #c0a37e;
 }
