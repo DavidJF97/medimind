@@ -98,9 +98,10 @@ li a:hover {
     width: 100%;
 }
 
-#sections div {
+.sections-div {
     display: inline-block;
-    height: 300px;
+    margin: 0 auto;
+    height: 600px;
     width: 33%;
 }
    
@@ -116,14 +117,14 @@ h2 > i {
 }
 
 
-.yoga-div {
+#yoga-div {
     background-color: #c0a37e;
 }
 
-.med-div {
+#med-div {
     background-color: #C09E72;
 } 
 
-.mind-div {
+#mind-div {
     background-color: #c0a37e;
 }
