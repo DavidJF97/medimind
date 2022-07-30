@@ -101,7 +101,7 @@ li a:hover {
 .sections-div {
     display: inline-block;
     margin: 0 auto;
-    height: 600px;
+    height: 900px;
     width: 33%;
 }
    
@@ -113,18 +113,53 @@ h2 > i {
 #sections div > h3 {
     font-size: 200%;
     text-decoration: underline;
-
 }
 
 
 #yoga-div {
-    background-color: #c0a37e;
+    background-color: rgba(192,163,126,0.8);
+    float: left;
 }
 
 #med-div {
-    background-color: #C09E72;
+    background-color: rgb(192,158,114,0.8);
 } 
 
 #mind-div {
-    background-color: #c0a37e;
+    background-color: rgba(192,163,126,0.8);
+    float: right;
+    
+}
+
+.section-header {
+    background-color: rgba(229,199,184,0.6);
+    height: 300px;
+    padding: 5%;
+    margin: 3px 3px;
+}
+
+.video-player {
+    margin: 10% 2.5%;
+    padding: 2.5%;
+    background-color: rgba(229,199,184,0.6);
+}
+
+/* footer */
+footer {
+    height: 150px;
+    background-color: rgba(229,199,184,0.5);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    color: rgba(192,163,126,1);
 }
