@@ -113,6 +113,7 @@ h2 > i {
 #sections div > h3 {
     font-size: 200%;
     text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 
@@ -140,8 +141,21 @@ h2 > i {
 
 .video-player {
     margin: 10% 2.5%;
-    padding: 2.5%;
+    padding: 5px;
     background-color: rgba(229,199,184,0.6);
+}
+
+/* sign-up form  */
+
+#sign-up {
+
+    height: 300px;
+    width: 100%;
+    margin: 10px 0;
+    
+    background-image: url('../images/pexels-vishal-amin-910307.jpg');
+    background-position: top center;
+    background-size: cover;
 }
 
 /* footer */
