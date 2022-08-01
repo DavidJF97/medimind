@@ -17,13 +17,10 @@ h1{
     font-family: Roboto, sans-serif;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Calligraffitti', sans-serif;
 }
 
-h3 {
-    font-family: 'Cormorant SC', sans-serif;
-}
 
 #logo {
     float: left;
@@ -87,6 +84,10 @@ li a:hover {
     text-align: center;
 }
 
+#hero-text h3 {
+    font-family: 'Cormorant SC', sans-serif;
+}
+
 /* yoga, mediation and mindfulness sections */
 
 #sections-heading {
@@ -105,12 +106,13 @@ li a:hover {
     width: 33%;
 }
    
-h2 > i {
+.fa-icon {
     font-size: 300%;
     padding-top: 2%;
 }
 
-#sections div > h3 {
+#sections div > h2 {
+    font-family: 'Cormorant SC', sans-serif;
     font-size: 200%;
     text-decoration: underline;
     margin-bottom: 15px;
@@ -158,7 +160,7 @@ h2 > i {
 }
 
 .sign-up-form {
-    height: 500x;
+    min-height: 400px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.6);
     margin: 50px 38%;
@@ -167,7 +169,7 @@ h2 > i {
     line-height: 25px;
 }
 
-.sign-up-form h2 {
+.sign-up-form h3 {
     text-align: center;
 }
 
