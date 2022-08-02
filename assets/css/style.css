@@ -30,7 +30,7 @@ h2, h3 {
     color: inherit;
 }
 
-#menu {
+/* #menu {
     float: right;
 }
 
@@ -48,7 +48,24 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+} */
+
+.menu{
+    display: flex;
+    float: right;
+    padding-top: 2%;
 }
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    margin: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
 
 .active {
     text-decoration: underline;
@@ -212,4 +229,22 @@ footer {
     font-size: 160%;
     margin: 2.5%;
     color: rgba(192,163,126,1);
+}
+
+/* responsive design elements for screens below 800px */
+
+/* nav bar */
+@media screen and (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        clear: both;
+        float: none;
+    }
+
+    .menu a {
+        border-top: solid black 1px;
+        padding: 20px;
+        margin: 1px;
+    }
 }
