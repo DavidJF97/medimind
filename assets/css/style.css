@@ -174,17 +174,23 @@ li a:hover {
     background-image: url('../images/pexels-vishal-amin-910307.jpg');
     background-position: top center;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-form {
     min-height: 400px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.6);
-    margin: 50px 38%;
+    /* margin: 50px 38%; */
     padding: 25px;
     position: absolute;
     line-height: 25px;
+
 }
+
 
 .sign-up-form h3 {
     text-align: center;
