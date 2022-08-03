@@ -99,7 +99,7 @@ li a:hover {
     font-size: 200%;
     line-height: 50px;
     text-align: center;
-}
+ }   
 
 #hero-text h3 {
     font-family: 'Cormorant SC', sans-serif;
@@ -114,13 +114,16 @@ li a:hover {
 #sections {
     text-align: center;
     width: 100%;
+    height: auto;
 }
 
 .sections-div {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    height: 900px;
-    width: 33%;
+    height: auto;
+    width: 100%;
+    border: solid black 1px;
 }
    
 .fa-icon {
@@ -138,7 +141,7 @@ li a:hover {
 
 #yoga-div {
     background-color: rgba(192,163,126,0.8);
-    float: left;
+    /* float: left; */
 }
 
 #med-div {
@@ -147,15 +150,40 @@ li a:hover {
 
 #mind-div {
     background-color: rgba(192,163,126,0.8);
-    float: right;
+    /* float: right; */
     
 }
 
 .section-header {
     background-color: rgba(229, 199, 184, 0.6);
     height: 300px;
-    padding: 5%;
+    padding-bottom: 2.5%;
     margin: 3px 3px;
+}
+
+.section-content {
+    background-color: green;
+    height: auto;
+    padding-bottom: 2.5%;
+    margin: 3px 3px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.articles {
+    background-color: aqua;
+    width: 49%;
+    height: auto;
+}
+
+.benefits {
+    background-color: rebeccapurple;
+    width: 49%;
+    height: auto;
 }
 
 .video-player {
@@ -163,6 +191,7 @@ li a:hover {
     padding: 5px;
     background-color: rgba(229,199,184,0.6);
 }
+
 
 /* sign-up form  */
 
@@ -188,7 +217,6 @@ li a:hover {
     padding: 25px;
     position: absolute;
     line-height: 25px;
-
 }
 
 
