@@ -176,13 +176,16 @@ li a:hover {
 .articles {
     background-color: rgba(229, 199, 184, 0.6);
     width: 49%;
-    height: auto;
-    overflow: hidden;
+    height:auto;
 }
 
 .articles iframe {
     width: 95%;
-    height: 95%;
+    height: 80%;
+}
+
+#refresh-button:hover {
+    border: solid 1px black;
 }
 
 .benefits {
@@ -193,10 +196,9 @@ li a:hover {
 }
 
 .video-player {
-    margin: 5% 2.5%;
+    margin: 2.5% 2.5%;
     padding: 5px;
     background-color: rgba(229, 199, 184, 0.6);
-    /* height: 600px; */
     width: auto;
 
     display: flex;
