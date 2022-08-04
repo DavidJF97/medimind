@@ -151,7 +151,6 @@ li a:hover {
 #mind-div {
     background-color: rgba(192,163,126,0.8);
     /* float: right; */
-    
 }
 
 .section-header {
@@ -162,7 +161,7 @@ li a:hover {
 }
 
 .section-content {
-    background-color: green;
+    /* background-color: green; */
     height: auto;
     padding-bottom: 2.5%;
     margin: 3px 3px;
@@ -175,23 +174,39 @@ li a:hover {
 }
 
 .articles {
-    background-color: aqua;
+    background-color: rgba(229, 199, 184, 0.6);
     width: 49%;
     height: auto;
+    overflow: hidden;
+}
+
+.articles iframe {
+    width: 95%;
+    height: 95%;
 }
 
 .benefits {
-    background-color: rebeccapurple;
-    width: 49%;
+    background-color: rgba(229, 199, 184, 0.6);
+    width: 45%;
     height: auto;
+    padding: 2.5%;
 }
 
 .video-player {
-    margin: 10% 2.5%;
+    margin: 5% 2.5%;
     padding: 5px;
-    background-color: rgba(229,199,184,0.6);
+    background-color: rgba(229, 199, 184, 0.6);
+    /* height: 600px; */
+    width: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
 }
 
+.video-player iframe {
+    padding: 10px;
+}
 
 /* sign-up form  */
 
