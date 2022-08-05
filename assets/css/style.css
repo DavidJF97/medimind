@@ -170,13 +170,20 @@ li a:hover {
 .text-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .articles {
     background-color: rgba(229, 199, 184, 0.6);
     width: 49%;
     height:auto;
+    padding-top: 2.5%;
+}
+
+.article-links {
+    font-size: 115%;
+    line-height: 40px;
+    list-style-type: none;
 }
 
 .articles iframe {
@@ -184,7 +191,11 @@ li a:hover {
     height: 80%;
 }
 
-#btn:hover {
+[id^=btn] {
+    background-color: rgb(192,158,114,0.8)
+}
+
+[id^=btn]:hover {
     border: solid 1px black;
 }
 
@@ -298,6 +309,8 @@ footer {
         padding: 20px;
         margin: 1px;
     }
+
+    /* yoda, meditation and mindfulness sections */
 
     .text-content {
         display: flex;
