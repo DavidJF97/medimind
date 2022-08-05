@@ -184,7 +184,7 @@ li a:hover {
     height: 80%;
 }
 
-#refresh-button:hover {
+#btn:hover {
     border: solid 1px black;
 }
 
@@ -228,7 +228,7 @@ li a:hover {
 
 .sign-up-form {
     min-height: 400px;
-    width: 400px;
+    max-width: 400px;
     background-color: rgba(255, 255, 255, 0.6);
     /* margin: 50px 38%; */
     padding: 25px;
@@ -297,5 +297,35 @@ footer {
         border-top: solid black 1px;
         padding: 20px;
         margin: 1px;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .benefits {
+        width: 95%;
+    }
+
+    .articles {
+        width: 100%;
+        border-top: solid black 1px;
+    }
+
+    #google-articles {
+        min-height: 300px;   
+    }
+
+    .video-player {
+        width: auto;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-player iframe {
+        width: 95%;
     }
 }
