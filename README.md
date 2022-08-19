@@ -16,6 +16,7 @@ View the live website [here](https://davidjf97.github.io/medimind/)
     * Located at the top of the page is a navigation bar. Each links to the corresponding section of the site's stand alone page.
     * This is useful to users as upon landing on the page they can see the content that is available and instantly navigate to their desired section of the site
 
+![Nav Bar](docs/readme_images/headernavlinks.PNG)
 <img src="../medimind/docs/readme_images/headernavlinks.PNG" alt="image of the header navigation bar">
 
 * Social Media Links

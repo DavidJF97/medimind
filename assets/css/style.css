@@ -30,26 +30,6 @@ h2, h3 {
     color: inherit;
 }
 
-/* #menu {
-    float: right;
-}
-
-#menu li {
-    list-style: none;
-    display: inline-block;
-    padding-top: 5%;
-}
-
-li a {
-    text-decoration: none;
-    color: inherit;
-    margin-right: 30px;
-}
-
-li a:hover {
-    text-decoration: underline;
-} */
-
 .menu{
     display: flex;
     float: right;
@@ -74,14 +54,14 @@ li a:hover {
 /* hero image */
 
 #hero-outer {
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     background: url('../images/pexels-elina-fairytale-3822622.jpg') no-repeat;
     background-size: cover;
@@ -189,19 +169,7 @@ li a:hover {
 
 .article-links li a:hover { 
     color: inherit;
-}
-
-.articles iframe {
-    width: 95%;
-    height: 80%;
-}
-
-[id^=btn] {
-    background-color: rgb(192,158,114,0.8)
-}
-
-[id^=btn]:hover {
-    border: solid 1px black;
+    text-decoration: underline;
 }
 
 .benefits {
@@ -212,7 +180,7 @@ li a:hover {
 }
 
 .video-player {
-    margin: 2.5% 2.5%;
+    margin: 1% 0;
     padding: 5px;
     background-color: rgba(229, 199, 184, 0.6);
     width: auto;
@@ -345,4 +313,15 @@ footer {
     .video-player iframe {
         width: 95%;
     }
+}
+
+/* responsive design elements for screens below 450px */
+
+/* hero image text */
+@media screen and (max-width: 450px) {
+
+    #hero-text {
+        font-size: 150%;
+     }   
+
 }
