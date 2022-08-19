@@ -6,7 +6,7 @@ The site hopes to be a good entry point for those with little to no knowledge of
 
 View the live website [here](https://davidjf97.github.io/medimind/) 
 
-<img src="../medimind/docs/readme_images/multidevice_mockup.PNG" alt="image of multiple devise mock ups of the website">
+<img src="docs/readme_images/multidevice_mockup.PNG" alt="image of multiple devise mock ups of the website">
 
 ## Features
 
@@ -16,8 +16,7 @@ View the live website [here](https://davidjf97.github.io/medimind/)
     * Located at the top of the page is a navigation bar. Each links to the corresponding section of the site's stand alone page.
     * This is useful to users as upon landing on the page they can see the content that is available and instantly navigate to their desired section of the site
 
-![Nav Bar](docs/readme_images/headernavlinks.PNG)
-<img src="../medimind/docs/readme_images/headernavlinks.PNG" alt="image of the header navigation bar">
+<img src="docs/readme_images/headernavlinks.PNG" alt="image of the header navigation bar">
 
 * Social Media Links
     * Locate at the bottom of the page are the social media links, opening in new tabs.
