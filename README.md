@@ -55,7 +55,8 @@ View the live website [here](https://davidjf97.github.io/medimind/)
     * This is a great way to get users to engage with the website and continue to grow their understanding of the practises even when off-site.
 
 ### Features left to implement
-* 
+* In future a custom page to be directed to upon sign-up will be used to let users know they've successfully joined the mail list and offer a simple way to return to the site through the navigation bar.
+* A custom 404 error page will be added to serve the same purpose, alert the user of the error and allow for any easy way of returning back to the site through the navigation bar.
 
 ## Testing
 
@@ -64,16 +65,11 @@ View the live website [here](https://davidjf97.github.io/medimind/)
 The site was tested to ensure responsiveness on screen sizes from 320px and upwards on Google Chrome, Microsoft Edge and Internet Explorer.
 
 Steps to test:
-
-1 Open browser and navigate to Medi-Mind
-
-2 Open the developer tools (right click and inspect)
-
-3 Set to responsive and decrease width to 320px
-
-4 Set the zoom to 50%
-
-5 Click and drag the responsive window to maximum width
+1. Open browser and navigate to Medi-Mind
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
 Expected:
 
@@ -86,9 +82,39 @@ Website behaved as expected.
 Website was also opened on the following devices and no responsive issues were seen:
 Iphone SE, Iphone XR, Ipad Air, Ipad Mini
 
+### Validity
+* HTML
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+<img src="docs/readme_images/index_htmlvalidation.PNG" alt="image of successful html validation"> 
+
+* CSS    
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+<img src="docs/readme_images/index_cssvalidation.PNG" alt="image of successful css validation"> 
+
+## Deployment
+ The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  1. In the GitHub repository, navigate to the Settings tab 
+  2. Select the Pages section from the left-hand menu
+  3. From the Source drop-down menu, select deploy from Branch
+  4. From the Branch drop-down menu, select Main (or Master)
+  3. Once the branch has been selected, refreshed the page and at the top a detailed ribbon display will indicate the successful deployment. 
+
+The live link can be found here - https://davidjf97.github.io/medimind/
+
 
 ## Credit
-* Icons used all from free icons list at [Font Awesome](https://fontawesome.com/)
-* Footer Social media links code adopted from Love Running website.
-* Images used sourced from [Pexels](https://www.pexels.com/)
-* All articles used are credited to their appropriate author as stated on the websites linked
+* Content
+    * Images used sourced from [Pexels](https://www.pexels.com/)
+    * All articles used are credited to their appropriate author as stated on the websites linked
+    * Benefits of yoga content taken from [here](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
+    * Benefits of meditation content taken from [here](https://www.healthline.com/nutrition/12-benefits-of-meditation#1.-Reduces-stress)
+    * Benefits of mindfulness content taken from [here](https://www.verywellmind.com/the-benefits-of-mindfulness-5205137)
+* Code
+    * Footer Social media links code adopted from Love Running website.
+    * Youtube videos embedding code taken directly from youtube.
+    * Flexbox implementation learned from [here](https://www.w3schools.com/css/css3_flexbox_responsive.asp) and [here](https://flexboxfroggy.com/) 
+* Feature 
+    * Icons used all from free icons list at [Font Awesome](https://fontawesome.com/)
+    * color pallete for site created using "Color pallete from image tool" on [Color designer](https://colordesigner.io/color-palette-from-image)
+
+
